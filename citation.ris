@@ -1,0 +1,26 @@
+
+TY  - JOUR
+AU  - Zhong, Shisheng
+AU  - Liu, Dan
+AU  - Lin, Lin
+AU  - Zhao, Minghang
+AU  - Fu, Xuyun
+AU  - Guo, Feng
+TI  - CAE-WANN: A novel anomaly detection method for gas turbines via search space extension
+JO  - Quality and Reliability Engineering International
+JA  - Qual. Reliab. Engng. Int.
+VL  - 38
+IS  - 6
+SN  - 0748-8017
+UR  - https://doi.org/10.1002/qre.3113
+DO  - https://doi.org/10.1002/qre.3113
+SP  - 3116
+EP  - 3134
+KW  - gas turbines
+KW  - anomaly detection
+KW  - small samples
+KW  - convolutional auto-encoders
+KW  - weight agnostic neural network search
+PY  - 2022
+AB  - Abstract Anomaly detection of gas turbines is a typical binary classification problem under small sample size. In essence, the goal of classification is to discover the mapping that can map samples in different categories to disjoint codomains. The neural network has strong nonlinear mapping ability thus it has great potentialities in classification tasks. However, how to design the architecture of the neural network is still a challenging problem. The inappropriate network architecture might cause either overfitting or underfitting problems. To alleviate the problem, this paper presents an effective anomaly detection model for gas turbines by combining the convolutional auto-encoder (CAE) and weight agnostic neural network (WANN) search. More specifically, the CAE is used for the search space extension by obtaining high-dimensional latent representations of the raw data. Then, the WANN search finds a suitable neural network architecture for anomaly detection in the extended search space. Moreover, a novel method based on maximum likelihood estimation is proposed for threshold selection, which is also effective in the case of unbalanced datasets. In the end, the real-life monitoring data of gas turbines validate the effectiveness of the presented anomaly detection model.
+ER  - 

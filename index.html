@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#07192d">
+  <meta name="description" content="CAE-WANN: Convolutional auto-encoder and weight-agnostic neural network search for gas turbine anomaly detection under small samples. Multilingual research project page.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CAE-WANN · Gas Turbine Anomaly Detection">
+  <meta property="og:description" content="A scientific project page featuring method, original figures, evaluation and citation in five languages.">
+  <title>CAE–WANN | Research project</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="i18n.js"></script>
+</head>
+<body>
+  <div id="reading-progress" aria-hidden="true"></div>
+  <a class="skip-link" href="#overview" data-i18n="skip">Skip to content</a>
+  <header class="site-header" id="top">
+    <nav class="navigation container" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="CAE-WANN research homepage">
+        <span class="brand-glyph" aria-hidden="true"><svg viewBox="0 0 38 38" fill="none"><rect x=".6" y=".6" width="36.8" height="36.8" rx="11" stroke="currentColor" stroke-opacity=".2"/><path d="M7 24l7-9 8 7 9-12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="7" cy="24" r="2.3" fill="currentColor"/><circle cx="31" cy="10" r="2.3" fill="currentColor"/></svg></span>
+        <span class="brand-name">CAE<span class="brand-sep">–</span>WANN<small data-i18n="brandSub">RESEARCH / 2022</small></span>
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a href="#overview" data-i18n="navOverview">Overview</a>
+        <a href="#approach" data-i18n="navMethod">Approach</a>
+        <a href="#evidence" data-i18n="navEvidence">Evidence</a>
+        <a href="#figures" data-i18n="navFigures">Figures</a>
+        <a href="#citation" data-i18n="navCitation">Citation</a>
+      </div>
+      <div class="nav-tools">
+        <label class="language-wrap" for="language-select"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3.5 3.7 3.5 14.3 0 18M12 3c-3.5 3.7-3.5 14.3 0 18"/></svg><span class="sr-only" data-i18n="languageLabel">Interface language</span>
+          <select id="language-select" aria-label="Interface language">
+            <option value="zh">简体中文</option>
+            <option value="en">English</option>
+            <option value="ru">Русский</option>
+            <option value="fr">Français</option>
+            <option value="ar">العربية</option>
+          </select>
+        </label>
+        <button type="button" class="menu-toggle" id="menu-toggle" aria-controls="nav-links" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-grid" aria-hidden="true"></div><div class="halo halo-a" aria-hidden="true"></div><div class="halo halo-b" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <div class="hero-main">
+          <div class="eyebrow hero-eyebrow"><span class="status-light"></span><span data-i18n="heroEyebrow">PEER-REVIEWED RESEARCH · GAS TURBINE HEALTH</span></div>
+          <h1 id="hero-title"><span class="hero-acronym">CAE<span class="accent-dash">–</span>WANN</span><span class="hero-title-sub" data-i18n="heroTitle">Detecting anomalies by expanding the search space.</span></h1>
+          <p class="hero-lead" data-i18n="heroLead">Combine a convolutional auto-encoder with weight-agnostic neural network search to discover a compact classifier—then use likelihood-based thresholding to make balanced decisions when abnormal samples are scarce.</p>
+          <p class="hero-authors" dir="ltr">Shisheng Zhong · Dan Liu · Lin Lin · Minghang Zhao · Xuyun Fu · Feng Guo</p>
+          <p class="hero-publication"><em>Quality and Reliability Engineering International</em><span class="point-sep">·</span> 2022 <span class="point-sep">·</span> DOI: <bdi>10.1002/qre.3113</bdi></p>
+          <div class="hero-actions">
+            <a class="button button-accent" href="CAE-WANN-Paper.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 3h8l4 4v14H4V3h4zM16 3v5h5M8 13h8M8 17h6"/></svg><span data-i18n="readPaper">Read full paper</span></a>
+            <a class="button button-outline" href="#approach"><span data-i18n="exploreMethod">Explore the method</span><span class="arrow" aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="visual-label"><span class="live-dot" aria-hidden="true"></span><span data-i18n="heroVisualLabel">METHOD AT A GLANCE</span><span class="visual-code">FIG. 02</span></div>
+          <button type="button" class="figure-button hero-image-button" data-image="images/figure-2-framework.png" data-caption-key="figure2" aria-label="Enlarge CAE-WANN framework">
+            <img src="images/figure-2-framework.png" alt="CAE-WANN architecture: CAE representation, WANN search, and MLETS threshold" data-alt="figure2alt" width="1503" height="919" fetchpriority="high">
+            <span class="zoom-icon" aria-hidden="true">⤢</span>
+          </button>
+          <p class="visual-caption" data-i18n="heroVisualCaption">Offline CAE–WANN model search and online anomaly decision pipeline.</p>
+        </div>
+      </div>
+      <div class="container hero-metrics" aria-label="Study highlights">
+        <div class="hero-metric"><span class="metric-value">86.74<span class="unit">%</span></span><span class="metric-caption" data-i18n="statAuc">Best mean AUC</span></div>
+        <div class="hero-metric"><span class="metric-value">1.69<span class="unit">%</span></span><span class="metric-caption" data-i18n="statSd">AUC standard deviation</span></div>
+        <div class="hero-metric"><span class="metric-value">512</span><span class="metric-caption" data-i18n="statSamples">Real monitoring samples</span></div>
+        <div class="hero-metric"><span class="metric-value">2.81<span class="unit">ms</span></span><span class="metric-caption" data-i18n="statInference">Inference / 155 test samples</span></div>
+      </div>
+    </section>
+
+    <section class="section overview-section" id="overview">
+      <div class="container">
+        <div class="section-heading two-column-intro">
+          <div><span class="section-kicker" data-i18n="s1label">01 / RESEARCH CONTEXT</span><h2 data-i18n="s1title">A small dataset shouldn't dictate a small search.</h2></div>
+          <div class="prose lead-copy"><p data-i18n="s1text1">Gas turbine anomaly detection is a binary classification problem with limited abnormal examples. Choosing a network topology by hand risks underfitting or overfitting the available sensor data.</p><p data-i18n="s1text2">CAE–WANN extends the feature search space with a convolutional auto-encoder, then searches neural network architectures within that representation. A maximum-likelihood threshold adapts the final decision to imbalanced anomaly scores.</p></div>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card"><div class="feature-icon">01<span aria-hidden="true">↗</span></div><h3 data-i18n="feature1title">Richer representations</h3><p class="prose" data-i18n="feature1text">A CAE converts 30-value windows into a higher-dimensional latent space, broadening the candidate architectures available to WANN.</p><span class="feature-tag" data-i18n="feature1tag">SEARCH SPACE EXTENSION</span></article>
+          <article class="feature-card"><div class="feature-icon">02<span aria-hidden="true">◇</span></div><h3 data-i18n="feature2title">Architecture, not guesswork</h3><p class="prose" data-i18n="feature2text">Weight-agnostic network search ranks compact topologies using shared weights and performance-loss criteria, avoiding repeated full training.</p><span class="feature-tag" data-i18n="feature2tag">NEURAL ARCHITECTURE SEARCH</span></article>
+          <article class="feature-card"><div class="feature-icon">03<span aria-hidden="true">◎</span></div><h3 data-i18n="feature3title">Balanced decisions</h3><p class="prose" data-i18n="feature3text">MLETS fits class-conditional score distributions to choose a likelihood-based threshold without relying on a fixed 0.5 cut-off.</p><span class="feature-tag" data-i18n="feature3tag">THRESHOLD SELECTION</span></article>
+        </div>
+        <div class="dataset-strip"><span class="dataset-label" data-i18n="datasetLabel">DATASET SNAPSHOT</span><div><strong>431</strong><span data-i18n="normalCount">normal samples</span></div><div><strong>81</strong><span data-i18n="abnormalCount">abnormal samples</span></div><div><strong>10</strong><span data-i18n="timeSteps">time steps per window</span></div><div class="dataset-note" data-i18n="datasetNote">Real gas-turbine monitoring data; not publicly released due to privacy restrictions.</div></div>
+      </div>
+    </section>
+
+    <section class="section approach-section" id="approach">
+      <div class="container">
+        <div class="section-heading"><span class="section-kicker" data-i18n="s2label">02 / THE METHOD</span><h2 data-i18n="s2title">From raw signals to a decision.</h2><p class="section-intro prose" data-i18n="s2intro">A learnable representation, an evolutionary topology search, and a statistical decision rule form one streamlined workflow.</p></div>
+        <div class="pipeline" aria-label="CAE-WANN methodology">
+          <div class="pipeline-step"><div class="step-number">01</div><span class="step-overline" data-i18n="step1label">INPUT</span><h3 data-i18n="step1title">Sensor windows</h3><p class="prose" data-i18n="step1text">DEGT, DN2 and DFF over ten time steps form a 30-value sample.</p></div>
+          <div class="pipeline-step"><div class="step-number">02</div><span class="step-overline" data-i18n="step2label">ENCODING</span><h3 data-i18n="step2title">Convolutional AE</h3><p class="prose" data-i18n="step2text">An encoder learns features while a decoder reconstructs the raw window.</p></div>
+          <div class="pipeline-step highlight-step"><div class="step-number">03</div><span class="step-overline" data-i18n="step3label">EXTENSION</span><h3 data-i18n="step3title">Latent vector z</h3><p class="prose" data-i18n="step3text">The high-dimensional representation enlarges the WANN search space.</p></div>
+          <div class="pipeline-step"><div class="step-number">04</div><span class="step-overline" data-i18n="step4label">SEARCH</span><h3 data-i18n="step4title">WANN evolution</h3><p class="prose" data-i18n="step4text">Candidate architectures are evaluated, ranked and varied using shared weights.</p></div>
+          <div class="pipeline-step"><div class="step-number">05</div><span class="step-overline" data-i18n="step5label">DECISION</span><h3 data-i18n="step5title">MLETS threshold</h3><p class="prose" data-i18n="step5text">A likelihood-fitted threshold β labels windows as normal or abnormal.</p></div>
+        </div>
+        <div class="method-story">
+          <div class="method-story-copy"><span class="micro-tag" data-i18n="trainingKicker">LEARNING STRATEGY</span><h3 data-i18n="trainingTitle">One sequential path. One feedback loop.</h3><p class="prose" data-i18n="trainingText1">The sequential procedure trains the CAE before WANN search. The alternating procedure updates the representation and topology in turn, allowing classification feedback to reshape latent features.</p><p class="prose" data-i18n="trainingText2">The CAE combines reconstruction loss with WANN feedback. Architecture search balances prediction loss against network complexity; the searched network uses roughly 160 connections compared with 810 in the BPNN baseline.</p><div class="formula" dir="ltr"><span>L<sub>CAE</sub> = L<sub>rec</sub> + L<sub>feed</sub></span><small data-i18n="formulaCaption">reconstruction + classification feedback</small></div></div>
+          <figure class="figure-frame method-lead-image"><div class="figure-head"><span data-i18n="fig3heading">TRAINING PROCEDURES</span><span>FIG 03</span></div><button type="button" class="figure-button" data-image="images/figure-3-training.png" data-caption-key="figure3" aria-label="Enlarge training procedure"><img src="images/figure-3-training.png" alt="Sequential and alternating CAE-WANN training flowcharts" data-alt="figure3alt" width="1100" height="1181" loading="lazy"><span class="zoom-icon" aria-hidden="true">⤢</span></button><figcaption data-i18n="figure3">Figure 3. Two training strategies: CAE first, or alternating CAE and WANN updates.</figcaption></figure>
+        </div>
+        <div class="figure-grid" id="figures">
+          <figure class="figure-frame"><div class="figure-head"><span data-i18n="fig4heading">CONVOLUTIONAL AUTO-ENCODER</span><span>FIG 04</span></div><button type="button" class="figure-button" data-image="images/figure-4-cae.png" data-caption-key="figure4" aria-label="Enlarge CAE architecture"><img src="images/figure-4-cae.png" alt="CAE encoder and decoder neural architecture" data-alt="figure4alt" width="1400" height="1034" loading="lazy"><span class="zoom-icon" aria-hidden="true">⤢</span></button><figcaption data-i18n="figure4">Figure 4. CAE encoder/decoder with strided convolution and reconstruction.</figcaption></figure>
+          <figure class="figure-frame"><div class="figure-head"><span data-i18n="fig5heading">WEIGHT-AGNOSTIC NETWORK SEARCH</span><span>FIG 05</span></div><button type="button" class="figure-button" data-image="images/figure-5-wann-search.png" data-caption-key="figure5" aria-label="Enlarge WANN search"><img src="images/figure-5-wann-search.png" alt="WANN search: initialize, evaluate, rank, mutate" data-alt="figure5alt" width="1850" height="1211" loading="lazy"><span class="zoom-icon" aria-hidden="true">⤢</span></button><figcaption data-i18n="figure5">Figure 5. Search iterates through initialization, evaluation, ranking and structural variation.</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section evidence-section" id="evidence">
+      <div class="container">
+        <div class="section-heading"><span class="section-kicker" data-i18n="s3label">03 / EXPERIMENTAL EVIDENCE</span><h2 data-i18n="s3title">Higher AUC. A more considered threshold.</h2><p class="section-intro prose" data-i18n="s3intro">On 155 test windows—130 normal and 25 abnormal—overall accuracy alone would be misleading. The study therefore examines AUC, sensitivity (TPR), specificity (TNR) and the Youden index.</p></div>
+        <div class="score-cards">
+          <div class="score-card emphasis"><span data-i18n="score1label">CAE–WANN MEAN AUC</span><strong>86.74%</strong><small data-i18n="score1note">best shared weight (+1)</small></div>
+          <div class="score-card"><span data-i18n="score2label">BEST WANN AUC</span><strong>84.90%</strong><small data-i18n="score2note">standalone WANN</small></div>
+          <div class="score-card"><span data-i18n="score3label">BPNN AUC</span><strong>79.77%</strong><small data-i18n="score3note">neural-network baseline</small></div>
+          <div class="score-card"><span data-i18n="score4label">AUC VARIABILITY</span><strong>1.69%</strong><small data-i18n="score4note">CAE–WANN standard deviation</small></div>
+        </div>
+        <div class="evidence-pair">
+          <figure class="figure-frame figure-wide"><div class="figure-head"><span data-i18n="table6heading">MODEL COMPARISON</span><span>TABLE 06</span></div><button type="button" class="figure-button" data-image="images/table-6-auc.png" data-caption-key="table6" aria-label="Enlarge performance comparison table"><img src="images/table-6-auc.png" alt="Table 6 AUC and inference-time comparison across algorithms" data-alt="table6alt" width="2122" height="1460" loading="lazy"><span class="zoom-icon" aria-hidden="true">⤢</span></button><figcaption data-i18n="table6">Table 6. AUC statistics and inference time for baselines, WANN and CAE–WANN settings.</figcaption></figure>
+          <div class="evidence-story"><span class="micro-tag" data-i18n="compKicker">MODEL COMPARISON</span><h3 data-i18n="compTitle">Performance without unnecessary complexity.</h3><p class="prose" data-i18n="compText1">At shared weight +1, CAE–WANN reaches 86.74% mean AUC—1.84 percentage points above the best WANN setting and 6.97 points above BPNN.</p><p class="prose" data-i18n="compText2">The searched model has about 160 connections rather than BPNN's 810. Inference for all 155 test samples takes 2.81 ms, compared with 0.07 ms for decision-tree baselines.</p><div class="number-compare"><div><b>+1.84</b><span data-i18n="gainWann">AUC points vs WANN</span></div><div><b>+6.97</b><span data-i18n="gainBpnn">AUC points vs BPNN</span></div></div></div>
+        </div>
+        <div class="evidence-pair reverse">
+          <figure class="figure-frame figure-wide"><div class="figure-head"><span data-i18n="fig6heading">MODEL CONVERGENCE</span><span>FIG 06</span></div><button type="button" class="figure-button" data-image="images/figure-6-convergence.png" data-caption-key="figure6" aria-label="Enlarge convergence plots"><img src="images/figure-6-convergence.png" alt="WANN generation and CAE reconstruction loss convergence" data-alt="figure6alt" width="1870" height="952" loading="lazy"><span class="zoom-icon" aria-hidden="true">⤢</span></button><figcaption data-i18n="figure6">Figure 6. WANN performance loss levels off near generation 512; CAE reconstruction loss stabilizes across configurations.</figcaption></figure>
+          <div class="evidence-story"><span class="micro-tag" data-i18n="convergenceKicker">TRAINING DYNAMICS</span><h3 data-i18n="convergenceTitle">A stable search trajectory.</h3><p class="prose" data-i18n="convergenceText">The best WANN's losses stabilize after roughly 512 generations. CAE reconstruction also converges across tested channel widths; the study selects a two- and four-channel configuration.</p></div>
+        </div>
+        <div class="threshold-panel"><div class="threshold-copy"><span class="micro-tag" data-i18n="thresholdKicker">OPERATING THRESHOLD</span><h3 data-i18n="thresholdTitle">A decision boundary that respects both classes.</h3><p class="prose" data-i18n="thresholdText1">Fixed threshold selection favors detecting abnormalities (91.54% TPR), while an adaptive threshold favors normal classification (92.00% TNR). MLETS balances these objectives at 85.38% TPR and 84.00% TNR.</p><p class="prose" data-i18n="thresholdText2">On the held-out test set, MLETS correctly identifies 111 of 130 normal windows and 21 of 25 abnormal windows.</p><div class="threshold-badges"><span>TPR <b>85.38%</b></span><span>TNR <b>84.00%</b></span></div></div>
+          <figure class="figure-frame figure-threshold"><div class="figure-head"><span data-i18n="table9heading">THRESHOLD COMPARISON</span><span>TABLE 09</span></div><button type="button" class="figure-button" data-image="images/table-9-thresholds.png" data-caption-key="table9" aria-label="Enlarge threshold comparison"><img src="images/table-9-thresholds.png" alt="Table 9 confusion matrices for fixed, adaptive and MLETS thresholds" data-alt="table9alt" width="2122" height="491" loading="lazy"><span class="zoom-icon" aria-hidden="true">⤢</span></button><figcaption data-i18n="table9">Table 9. Confusion matrices comparing fixed, adaptive and likelihood-based thresholding.</figcaption></figure>
+        </div>
+        <div class="figure-gallery-heading"><span class="micro-tag" data-i18n="latentKicker">LATENT-SPACE EXAMPLES</span><h3 data-i18n="latentTitle">What the representation reveals.</h3><p class="prose" data-i18n="latentIntro">The original raw sensor windows and the corresponding learned latent representations are presented side by side for normal and abnormal cases.</p></div>
+        <div class="figure-grid gallery-grid">
+          <figure class="figure-frame"><div class="figure-head"><span data-i18n="fig7heading">NORMAL SAMPLES</span><span>FIG 07</span></div><button type="button" class="figure-button" data-image="images/figure-7-normal-samples.png" data-caption-key="figure7" aria-label="Enlarge normal signal examples"><img src="images/figure-7-normal-samples.png" alt="Five normal signal windows compared in raw and latent views" data-alt="figure7alt" width="1621" height="1342" loading="lazy"><span class="zoom-icon" aria-hidden="true">⤢</span></button><figcaption data-i18n="figure7">Figure 7. Five normal samples in raw (A) and latent (B) representations.</figcaption></figure>
+          <figure class="figure-frame"><div class="figure-head"><span data-i18n="fig8heading">ABNORMAL SAMPLES</span><span>FIG 08</span></div><button type="button" class="figure-button" data-image="images/figure-8-abnormal-samples.png" data-caption-key="figure8" aria-label="Enlarge abnormal signal examples"><img src="images/figure-8-abnormal-samples.png" alt="Five abnormal signal windows compared in raw and latent views" data-alt="figure8alt" width="1621" height="1342" loading="lazy"><span class="zoom-icon" aria-hidden="true">⤢</span></button><figcaption data-i18n="figure8">Figure 8. Five abnormal samples in the same two representations.</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section citation-section" id="citation">
+      <div class="container citation-layout">
+        <div class="citation-info"><span class="section-kicker" data-i18n="s4label">04 / PUBLICATION & REUSE</span><h2 data-i18n="s4title">Read the work. Cite the source.</h2><p class="prose" data-i18n="citationIntro">Use the original paper for complete methods and experimental details. The reference below is generated from the supplied citation record.</p><div class="citation-bibliography"><strong data-i18n="journalLabel">JOURNAL</strong><p>Quality and Reliability Engineering International</p><strong data-i18n="publicationLabel">PUBLICATION DETAILS</strong><p>2022 · 38(6) · 3116–3134</p><strong>DOI</strong><p><a href="https://doi.org/10.1002/qre.3113" target="_blank" rel="noopener" dir="ltr">10.1002/qre.3113 ↗</a></p></div><div class="citation-actions"><a class="button button-dark" href="CAE-WANN-Paper.pdf" target="_blank" rel="noopener"><span data-i18n="pdfButton">Paper PDF</span><span aria-hidden="true">↗</span></a><a class="button button-subtle" href="CAE-WANN.bib" download><span data-i18n="bibDownload">Download .bib</span><span aria-hidden="true">↓</span></a><a class="button button-subtle" href="citation.ris" download><span data-i18n="risDownload">Download .ris</span><span aria-hidden="true">↓</span></a></div></div>
+        <div class="bib-card"><div class="bib-card-head"><span><span class="bib-cue" aria-hidden="true"></span> BibTeX</span><button type="button" id="copy-bib" class="bib-copy" data-i18n="copyButton">Copy citation</button></div><pre id="bib-code" dir="ltr"><code>@article{Zhong2022CAEWANN,
+  author  = {Zhong, Shisheng and Liu, Dan and Lin, Lin and Zhao, Minghang and Fu, Xuyun and Guo, Feng},
+  title   = {{CAE-WANN}: A novel anomaly detection method for gas turbines via search space extension},
+  journal = {Quality and Reliability Engineering International},
+  year    = {2022},
+  volume  = {38},
+  number  = {6},
+  pages   = {3116--3134},
+  issn    = {0748-8017},
+  doi     = {10.1002/qre.3113},
+  url     = {https://doi.org/10.1002/qre.3113},
+  keywords = {gas turbines, anomaly detection, small samples, convolutional auto-encoders, weight agnostic neural network search}
+}</code></pre><p class="bib-foot" data-i18n="bibNote">Metadata verified against the supplied citation file; paper title and author names remain in the publication language.</p></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container footer-content"><a class="footer-brand" href="#top">CAE–WANN<span data-i18n="footerSuffix"> / RESEARCH PROJECT</span></a><p data-i18n="footerText">Original research figures reproduced from the supplied publication material. Interface available in five languages.</p><a href="#top" class="back-top" data-i18n="backTop">Back to top ↑</a></div></footer>
+  <dialog id="image-dialog" class="image-dialog" aria-label="Enlarged research figure"><div class="dialog-top"><span id="dialog-title" data-i18n="figureDialogTitle">Figure preview</span><button type="button" id="dialog-close" aria-label="Close enlarged figure">✕</button></div><div class="dialog-figure"><img id="dialog-img" alt=""></div><p id="dialog-caption"></p></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
